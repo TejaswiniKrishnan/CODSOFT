@@ -1,0 +1,116 @@
+.nlist{
+    list-style-type:none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: azure;
+    
+}
+.h1list{
+    list-style-type:none;   
+    padding: 10px;
+}
+.h2list {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 50px;
+    
+}
+.fonti{
+    font-style: italic;
+    font-size:xx-large
+}
+.nitem{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.buto{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color:chocolate;
+    border-radius: 50px;
+    font-family: inherit; 
+    margin: 0; 
+}
+a{
+    padding: 10px 20px; /* Increased padding for larger size */
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    color: aliceblue
+}
+.para{
+    
+    padding-left: 100px;
+    padding-top: 100px;
+    font-size: xx-large;
+    font-family:fantasy;
+}
+.nitem a:hover{
+    background-image: linear-gradient(to top right,rgb(0, 217, 255),rgb(31, 47, 197));
+    color: rgb(255, 255, 255);
+    border-radius: 10%;
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp5240556.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 700px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+ p{
+    color: #ddd;
+ }
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
