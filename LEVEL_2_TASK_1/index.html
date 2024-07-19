@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Job Board</h1>
+            <nav>
+                <ul>
+                    <li><a href="#jobs">Jobs</a></li>
+                    <li><a href="#post-job">Post a Job</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="jobs">
+            <div class="container">
+                <h2>Available Jobs</h2>
+                <div class="job-listing">
+                    <h3>Software Engineer</h3>
+                    <p><strong>Company:</strong> Tech Solutions</p>
+                    <p><strong>Location:</strong> Remote</p>
+                    <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac orci vel massa gravida commodo.</p>
+                    <button>Apply Now</button>
+                </div>
+                <div class="job-listing">
+                    <h3>Graphic Designer</h3>
+                    <p><strong>Company:</strong> Creative Minds</p>
+                    <p><strong>Location:</strong> New York, NY</p>
+                    <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac orci vel massa gravida commodo.</p>
+                    <button>Apply Now</button>
+                </div>
+                <!-- Add more job listings here -->
+            </div>
+        </section>
+        <section id="post-job">
+            <div class="container">
+                <h2>Post a Job</h2>
+                <form>
+                    <label for="job-title">Job Title:</label>
+                    <input type="text" id="job-title" name="job-title" required>
+                    
+                    <label for="company">Company:</label>
+                    <input type="text" id="company" name="company" required>
+                    
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" required>
+                    
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" required></textarea>
+                    
+                    <button type="submit">Post Job</button>
+                </form>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions, feel free to reach out to us at <a href="mailto:info@jobboard.com">info@jobboard.com</a>.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Job Board. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
